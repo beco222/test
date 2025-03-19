@@ -1,0 +1,58 @@
+
+
+body{
+    background-color: #3697DB;
+}
+
+.father{ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image{
+    text-align: center;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.clast {
+    margin-bottom: 30px;
+}
+
+
+.img{
+    background-color: rgba(0, 0, 0, 40%);
+    width: 300px;
+    height: 450px;
+    border: 10px solid #A6A7A9;
+    border-radius: 1cm;
+    
+    position: absolute;
+    z-index: -1;
+}
+
+.btn{
+    font-size: 27px;
+    background-color: white;
+    color: #3697DB;
+    padding: 10px 70px 10px 70px;
+    border-radius: 2cm;
+    cursor: pointer;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.tort{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    z-index: -2;
+    rotate: 45deg;
+}

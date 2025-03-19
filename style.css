@@ -1,0 +1,18 @@
+
+
+.card {
+    background-color: beige;
+    width: 460px;
+
+}
+
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img {
+    width: 400px;
+}
